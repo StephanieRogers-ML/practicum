@@ -36,17 +36,8 @@ This repo was created as a summer practicum project.  Image Classification is ap
  
 ## Summary of Benchmarks  
 
-| Framework    | N | # Layers | MinTestError | s / epoch |
-|--------------|--:|---------:|-------------:|----------:|
-| Keras(TF)    | 3 | 20       | 0.0965       | 51.817    |
-| Keras(MXNet) | 3 | 20       | 0.0963       | 50.207    |
-| Chainer      | 3 | 20       | 0.0995       | 35.360    |
-| PyTorch      | 3 | 20       | 0.0986       | 26.602    |  
 
-
-
-
-|Make (Top 1)   | Interior  |  steering |  odometer |   control |   gear    |   All     |
+|    Model      | Interior  |  steering |  odometer |   control |   gear    |   All     |
 |:-------------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
 |EfficientNet   |   0.946   |   0.885   |   0.804   |   0.906   |   0.857   |   0.844   |
 |MobileNet      |   0.953   |   0.949   |   0.259   |   0.777   |   0.789   |   0.767   |
