@@ -1,6 +1,6 @@
 #  Project Background  
 ##  Image-based & Object-based Deep Learning for Vehicle Interiors 
-[Open in Colab](https://colab.research.google.com/github/StephanieRogers-ML/deep-learning_vehicle-dashboard/blob/master/FinalDetection.ipynb) 
+[Open in Colab](https://colab.research.google.com/github/StephanieRogers-ML/practicum/docs/blob/master/FinalDetection.ipynb) 
 
 Modern Dashboards can accommodate a broad array of gauges, climate controls, infotainment, and entertainment systems, which contrast to the earlier simpler controls of only speed, fuel, and oil pressure. Automakers have different and distinct ways of designing their dashboards and using a collection of visual identification tools, machine learning and deep learning algorithms we will learn to leverage vehicle features of the dashboard to identify the vehicle and its characteristics. 
 
@@ -9,8 +9,7 @@ The goal of this project is to develop a machine learning model that can help id
 
 ##  Deep Learning Models
 
-### Tasks
-* [ ]  Environment: Tensorflow 2.0, Tensorflow JS and Tensorflow Hub 
+### Objectives
 * [ ]  Vehicle Classification: Previously trained on ImageNet.
 * [ ]  Object detection: model that localize and identify multiple objects in a single image.
 * [ ]  Demo
@@ -22,13 +21,6 @@ This repo was created as a summer practicum project.  Image Classification is ap
 
 ### Object_Detection 
 ## TensorFlow.js Demo Example
-
-
-
-
-
-
-
 
 1.  Image Classification done using a pre-trained model as the base and different classifiers, feature extractors, and fine tuning on a custom dataset. 
         classifier_url = 
@@ -56,14 +48,11 @@ This repo was created as a summer practicum project.  Image Classification is ap
 
 |Make (Top 1)   | Interior  |  steering |  odometer |   control |   gear    |   All     |
 |:-------------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
-|MobileNet      |   0.946   |   0.885   |   0.804   |   0.906   |   0.857   |   0.844   |
-|SSD            |   0.953   |   0.949   |   0.259   |   0.777   |   0.789   |   0.767   |
-|Overfeat       |   0.710   |   0.521   |   0.507   |   0.680   |   0.656   |   0.829   |
+|EfficientNet   |   0.946   |   0.885   |   0.804   |   0.906   |   0.857   |   0.844   |
+|MobileNet      |   0.953   |   0.949   |   0.259   |   0.777   |   0.789   |   0.767   |
+|SSD & MobileNet|   0.710   |   0.521   |   0.507   |   0.680   |   0.656   |   0.829   |
 
 
-|Faster_rcnn_inception_v2_coco    
-|Ssd_inception_v2_coco        
-Single-Shot Multibox Detector (SSD) with feature extraction head from MobileNet
 
 
 ##  Product Demo    
