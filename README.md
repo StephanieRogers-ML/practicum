@@ -6,7 +6,7 @@ Binary Classification with EfficientNet
 [Open in Colab](https://colab.research.google.com/github/StephanieRogers-ML/practicum/blob/master/Classification.ipynb) 
 Multi-class Classification with MobileNet
 
-[Open in Colab](https://colab.research.google.com/github/StephanieRogers-ML/practicum/blob/master/Detection.ipynb) 
+[Open in Colab](https://colab.research.google.com/github/StephanieRogers-ML/deep-learning_vehicle-dashboard/blob/master/FinalDetection.ipynb) 
 SSD Detection with MobileNet Feature Extractor
 
 
