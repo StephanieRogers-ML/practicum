@@ -45,11 +45,11 @@ This repo was created as a summer practicum project.  Image Classification is ap
 ## Summary of Benchmarks  
 
 
-|    Model      | Interior  |  steering |  odometer |   control |   gear    |   All     |
-|:-------------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
-|EfficientNet   |   0.946   |   0.885   |   0.804   |   0.906   |   0.857   |   0.844   |
-|MobileNet      |   0.953   |   0.949   |   0.259   |   0.777   |   0.789   |   0.767   |
-|SSD & MobileNet|   0.710   |   0.521   |   0.507   |   0.680   |   0.656   |   0.829   |
+|    Model      | Interior  |  steering |  odometer |   control |   gear    | 
+|:-------------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+|EfficientNet   |   0.946   |   0.885   |   0.804   |   0.906   |   0.857   |   
+|MobileNet      |   0.953   |   0.949   |   0.259   |   0.777   |   0.789   |  
+|SSD & MobileNet|   0.710   |   0.521   |   0.507   |   0.680   |   0.656   |   
 
 
 
